@@ -60,9 +60,15 @@ void generateToggleKey() {
   forceEnabled.text = "Force Enabled";
   var forceDisabled = DivElement();
   forceDisabled.text = "Force Disabled";
-  
-  key.children
-      .addAll([unchecked.element, userSet, enabled.element, forceEnabled, disabled.element, forceDisabled]);
+
+  key.children.addAll([
+    unchecked.element,
+    userSet,
+    enabled.element,
+    forceEnabled,
+    disabled.element,
+    forceDisabled
+  ]);
 }
 
 enum Status {
@@ -198,11 +204,15 @@ void save() {
           disallowedMod.extraData!.add(JsonBoolean(value.value));
         }
       });
+      if (disallowedMod.extraData!.isEmpty) {
+        disallowedMod.extraData = null;
+      }
     }
 
-    if (mod.fields.isNotEmpty || mod.status != Status.unknown) {
-      disallowedMap.putIfAbsent(mod.name, () => disallowedMod);
+    if (mod.status == Status.unknown && disallowedMod.extraData == null) {
+      continue;
     }
+    disallowedMap.putIfAbsent(mod.name, () => disallowedMod);
   }
   var config = Config(0, 0, disallowedMap);
 
