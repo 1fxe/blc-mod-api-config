@@ -25,6 +25,13 @@ The Badlion Client Config Generator simplifies the process of creating configura
 
 This project is licensed under the [MIT License](LICENSE).
 
+## Getting Started
+
+To generate the the missing data.g.part run the following command
+```shell
+dart run build_runner build
+```
+
 ---
 
 *Disclaimer: This project is not affiliated with or endorsed by Badlion Client or its creators. It is an independent open-source project created by the community for the community.*

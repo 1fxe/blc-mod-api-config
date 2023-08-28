@@ -3,3 +3,4 @@
 .dart_tool/
 .idea/
 .build/
+web/data.g.dart

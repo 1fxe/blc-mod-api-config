@@ -9,6 +9,7 @@ RUN dart pub get
 COPY . .
 
 RUN dart pub global activate webdev
+RUN dart run build_runner build
 RUN dart pub global run webdev build --output=web:build
 
 FROM nginx:latest
