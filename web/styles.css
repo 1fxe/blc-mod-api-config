@@ -125,6 +125,7 @@ html, body {
     font-size: x-large;
     font-weight: 700;
     margin: 10px auto 5px 10px;
+    min-width: 300px;
 }
 
 .mod-config-header-button {

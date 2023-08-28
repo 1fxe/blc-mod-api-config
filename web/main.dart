@@ -119,7 +119,8 @@ class ModConfig {
 
     LiteCheckBox checkBox = LiteCheckBox();
     checkBox.add("unchecked");
-    topPart.onClick.listen((event) {
+
+    click() {
       int index = status.index;
       index += 1;
 
@@ -139,11 +140,14 @@ class ModConfig {
         checkBox.remove("force-enabled");
         checkBox.add("force-disabled");
       }
-    });
+    }
+
+    checkBox.element.onClick.listen((event) => click());
 
     topPart.children.add(checkBox.element);
 
     DivElement title = DivElement();
+    title.onClick.listen((event) => click());
     title.text = modName;
     title.classes.add("mod-config-header-title");
 
