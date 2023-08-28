@@ -23,7 +23,7 @@ The Badlion Client Config Generator simplifies the process of creating configura
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [BSD License](LICENSE).
 
 ## Getting Started
 
