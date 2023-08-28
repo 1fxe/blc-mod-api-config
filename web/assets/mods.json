@@ -1,0 +1,753 @@
+[
+  {
+    "name": "Hitboxes",
+    "modName": "Hitboxes",
+    "description": "Display hitboxes on various entities in-game",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "EnchantGlint",
+    "modName": "Enchant Glint",
+    "description": "Customize the enchantment glint effect",
+    "enabled": true,
+    "fields": []
+  },
+  {
+    "name": "BlockOverlay",
+    "modName": "Block Overlay",
+    "description": "Change colors when hovering on a block",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "Perspective",
+    "modName": "Perspective",
+    "description": "View your player from 360 degrees",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "Particles",
+    "modName": "Particles",
+    "description": "Customize nearly all particles to your liking",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "Shinypots",
+    "modName": "Shinypots",
+    "description": "Highlight potions in your inventory",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "ItemPhysic",
+    "modName": "Item Physics",
+    "description": "Better item physics",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "LevelHead",
+    "modName": "LevelHead",
+    "description": "Display Hypixel player levels above their heads",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "AutoTip",
+    "modName": "AutoTip",
+    "description": "Automatically tip players on Hypixel",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "ArmorStatus",
+    "modName": "Armor Status",
+    "description": "Display your armor durability",
+    "enabled": false,
+    "fields": [
+      "fancyFont",
+      "hideDurabilityForUnbreakables",
+      "showMaxDurability",
+      "showPercentage",
+      "handPiece",
+      "bootPiece",
+      "leggingPiece",
+      "chestPiece",
+      "helmetPiece",
+      "offHandPiece",
+      "vanillaBackground"
+    ]
+  },
+  {
+    "name": "Coordinates",
+    "modName": "Coordinates",
+    "description": "Display coordinates and world information",
+    "enabled": false,
+    "fields": [
+      "roundLocation",
+      "biomeEnabled",
+      "directionEnabled",
+      "chunksEnabled",
+      "hideXYZ",
+      "hideC",
+      "hideBiome",
+      "textModCustomPrefix",
+      "textModOneLine",
+      "textModShowXZ",
+      "textModShowY",
+      "textModShowDirection",
+      "textModShowBiome",
+      "textModShowChunks",
+      "biomeColors"
+    ]
+  },
+  {
+    "name": "Fullbright",
+    "modName": "Fullbright",
+    "description": "Make game brighter by raising gamma value",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "Keystroke",
+    "modName": "Keystrokes",
+    "description": "Display your key presses on screen",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "MiniMap",
+    "modName": "Minimap",
+    "description": "Display a minimap of the world around you",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "PotionStatus",
+    "modName": "Potion Status",
+    "description": "Display potion effects on your GUI",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "ShowCPS",
+    "modName": "CPS",
+    "description": "Display your clicks per second",
+    "enabled": false,
+    "fields": [
+      "reversed",
+      "showDecimal",
+      "removeCpsText"
+    ]
+  },
+  {
+    "name": "ShowDirection",
+    "modName": "Direction",
+    "description": "Display your direction",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "ShowFPS",
+    "modName": "FPS",
+    "description": "Display your FPS",
+    "enabled": true,
+    "fields": [
+      "reversed"
+    ]
+  },
+  {
+    "name": "ShowPing",
+    "modName": "Ping",
+    "description": "Display your ping to a server",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "ShowTps",
+    "modName": "TPS",
+    "description": "Display the server\u0027s TPS",
+    "enabled": false,
+    "fields": [
+      "reversed"
+    ]
+  },
+  {
+    "name": "ShowProtection",
+    "modName": "Protection",
+    "description": "Display amount of protection your armor provides",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "ShowItemInfo",
+    "modName": "Item Info",
+    "description": "Display enchants briefly when picking up an item",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "Stopwatch",
+    "modName": "Stopwatch",
+    "description": "Records passed time",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "ToggleSprint",
+    "modName": "ToggleSprint",
+    "description": "Toggle your sprint and sneak keys",
+    "enabled": false,
+    "fields": [
+      "flySpeed"
+    ]
+  },
+  {
+    "name": "TimeChanger",
+    "modName": "Time Changer",
+    "description": "Change the time of the day or speed of day cycle",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "WeatherChanger",
+    "modName": "Weather Changer",
+    "description": "Change the weather",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "Saturation",
+    "modName": "Saturation",
+    "description": "Display your saturation level",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "Crosshair",
+    "modName": "Crosshair",
+    "description": "Customize your in-game crosshair",
+    "enabled": false,
+    "fields": [
+      "visibleHideGui",
+      "visibleDebugScreen",
+      "visibleSpectatorMode",
+      "visibleThirdPerson",
+      "highlightPlayer",
+      "highlightHostile",
+      "highlightPassive",
+      "dynamicBow",
+      "dynamicAttack",
+      "outline",
+      "dotOutline",
+      "dot",
+      "vanillaBlendering"
+    ]
+  },
+  {
+    "name": "FOVChanger",
+    "modName": "FOV Changer",
+    "description": "Change your field of view",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "ItemCounter",
+    "modName": "Item Counter",
+    "description": "Count how many items you have in your inventory",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "Waypoints",
+    "modName": "Waypoints",
+    "description": "Set markers in the world to go back to later",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "ChatMod",
+    "modName": "Chat",
+    "description": "Customize your vanilla chat interface",
+    "enabled": true,
+    "fields": [
+      "textBackgroundShadow",
+      "timeStamp24h",
+      "timeStampBold",
+      "antiSpam",
+      "ignoreClickableMessagesForSpawn",
+      "infiniteHistory",
+      "emphasizeUsername",
+      "boldEffect",
+      "underlineEffect",
+      "italicsEffect",
+      "soundEffect",
+      "smoothChat",
+      "noCloseMyChat",
+      "vanillaFont",
+      "hypixelTabComplete"
+    ]
+  },
+  {
+    "name": "BossBar",
+    "modName": "Boss Bar",
+    "description": "Custom Ender Dragon/Wither boss bar",
+    "enabled": true,
+    "fields": []
+  },
+  {
+    "name": "Zoom",
+    "modName": "Zoom",
+    "description": "Use a key to lower your FOV and zoom in",
+    "enabled": false,
+    "fields": [
+      "useOptifineZoom"
+    ]
+  },
+  {
+    "name": "AutoText",
+    "modName": "Auto Text",
+    "description": "Set small macros to execute commands quickly",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "ReachDisplay",
+    "modName": "Reach Display",
+    "description": "Display distance to target hit for attacks",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "Timers",
+    "modName": "Timers",
+    "description": "Mod for displaying timers.",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "SchematicaMod",
+    "modName": "Schematica",
+    "description": "Display a hologram for easier rebuilding",
+    "enabled": false,
+    "fields": [
+      "printerEnabled",
+      "headRotationEnabled"
+    ]
+  },
+  {
+    "name": "TeamSpeak",
+    "modName": "TeamSpeak",
+    "description": "Integration for using TeamSpeak from within your game",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "MLGCobweb",
+    "modName": "MLG Cobweb",
+    "description": "Display MLG cobweb helper",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "MumbleLink",
+    "modName": "Mumble Link",
+    "description": "Link Mumble 3D sound to Minecraft",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "ReplayMod",
+    "modName": "Replay",
+    "description": "Allows you to record your game from a third-person perspective",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "MotionBlur",
+    "modName": "Motion Blur",
+    "description": "Enable motion blur on your game",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "InventoryBlur",
+    "modName": "Inventory Blur",
+    "description": "Blurs the background of inventories and overlays",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "MemoryDisplay",
+    "modName": "Memory",
+    "description": "Shows the current memory usage",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "ComboCounter",
+    "modName": "Combo Counter",
+    "description": "Shows the number of repeated successful attacks",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "ServerAddress",
+    "modName": "Server Address",
+    "description": "Shows the current server address",
+    "enabled": false,
+    "fields": [
+      "showIcon"
+    ]
+  },
+  {
+    "name": "Clock",
+    "modName": "Clock",
+    "description": "Display the time",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "ResourcePackDisplay",
+    "modName": "Pack Display",
+    "description": "Display your currently equipped resource pack",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "HitColor",
+    "modName": "Hit Color",
+    "description": "Change damage color for entities",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "ChunkBorders",
+    "modName": "Chunk Borders",
+    "description": "Shows a border outline of your current chunk",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "ClearGlass",
+    "modName": "Clear Glass",
+    "description": "Easily modify glass without a texture pack",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "NameHistory",
+    "modName": "Name History",
+    "description": "Check the name history of a player.",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "PlayerCounter",
+    "modName": "Player Counter",
+    "description": "Shows the amount of online players on the current server.",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "BlockInfo",
+    "modName": "Block Info",
+    "description": "Show info about the block you are looking at",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "JustEnoughItems",
+    "modName": "Just Enough Items",
+    "description": "Shows all crafting recipes per item in a simple list.",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "PackTweaks",
+    "modName": "Pack Tweaks",
+    "description": "Useful Resource Pack Tweaks",
+    "enabled": false,
+    "fields": [
+      "customSky",
+      "enableOreOverlays"
+    ]
+  },
+  {
+    "name": "ItemTracker",
+    "modName": "Item Tracker",
+    "description": "Display items you\u0027ve recently dropped or picked up",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "WorldEditCUI",
+    "modName": "World Edit CUI",
+    "description": "Visualize your world edit selection",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "ColorSaturation",
+    "modName": "Color Saturation",
+    "description": "Change the saturation of your game",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "TNTTime",
+    "modName": "TNT Time",
+    "description": "Shows the remaining time before tnt detonates.",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "Uptime",
+    "modName": "Uptime",
+    "description": "Display the time you have been connected to a server/world",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "PlayerList",
+    "modName": "Tab",
+    "description": "Customize your player (tab) list",
+    "enabled": true,
+    "fields": []
+  },
+  {
+    "name": "NameTags",
+    "modName": "Name Tags",
+    "description": "Change how Name Tags are displayed in the world.",
+    "enabled": true,
+    "fields": []
+  },
+  {
+    "name": "HeightLimitBlockOverlay",
+    "modName": "Height Overlay",
+    "description": "Changes block color when near the height limit",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "BlockCounter",
+    "modName": "Block Counter",
+    "description": "Counts how many blocks you have placed during your session",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "OofMod",
+    "modName": "OofMod",
+    "description": "Play custom sounds when you kill another player",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "DamageTint",
+    "modName": "Damage Tint",
+    "description": "Tints your screen red when you are low on health",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "GuiMod",
+    "modName": "GUI",
+    "description": "Allows you to change scale of GUI components",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "MouseStrokes",
+    "modName": "Mouse Strokes",
+    "description": "Display your mouse movement on screen",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "PVPInfo",
+    "modName": "PvP Info",
+    "description": "Shows your PvP stats",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "AbstractLightOverlay",
+    "modName": "Light Overlay",
+    "description": "Display Potential Mob Spawn Positions",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "TacticalMarkers",
+    "modName": "Tactical Markers",
+    "description": "Place tactical markers for your party",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "ScoreboardMod",
+    "modName": "Scoreboard",
+    "description": "Display scoreboard (sidebar)",
+    "enabled": true,
+    "fields": [
+      "showNumbers",
+      "removeNumberOffset"
+    ]
+  },
+  {
+    "name": "TeamMarker",
+    "modName": "Team Marker",
+    "description": "See where your teammates are.\nThis only works for BLC Parties or servers supporting the mod",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "SkinsMod",
+    "modName": "3D Skins",
+    "description": "Compiles second skin layers to 3D models.",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "CWModToggle",
+    "modName": "Clan Wars",
+    "description": "Toggles the GommeHD Clan Wars overlay",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "SkyblockAddons",
+    "modName": "Skyblock",
+    "description": "Useful features for Hypixel Skyblock",
+    "enabled": true,
+    "fields": [
+      "showMagmaBossTimer",
+      "showEnchantmentsReforges",
+      "enableTerminalSolver",
+      "terminalSolverHideTooltip",
+      "enableDungeonProfitCalculator",
+      "preventMovementOnDeath"
+    ]
+  },
+  {
+    "name": "NickHider",
+    "modName": "Nick Hider",
+    "description": "Hide your nick and skins on Hypixel",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "ToggleChat",
+    "modName": "ToggleChat",
+    "description": "Toggle specific Hypixel chat messages",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "AutoGG",
+    "modName": "AutoGG",
+    "description": "Send \"gg\" automatically after a match",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "AutoFriend",
+    "modName": "Auto Friend",
+    "description": "Automatically accept friend requests on Hypixel",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "QuickPlay",
+    "modName": "Quickplay",
+    "description": "Join Hypixel Minigames Quickly",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "HyStats",
+    "modName": "HyStats",
+    "description": "Shows your current stats for different Hypixel games.",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "Animations",
+    "modName": "Animations",
+    "description": "Change animation properties",
+    "enabled": true,
+    "fields": [
+      "itemHeld",
+      "itemSwitch",
+      "hitBox",
+      "inventory",
+      "blockHit",
+      "heartAnimation",
+      "damageAnimation",
+      "sneakingAnimation",
+      "eatAnimation",
+      "thrownItems",
+      "fishingRod",
+      "swordSwing",
+      "bowAnimation",
+      "alwaysSwing",
+      "removeTitles",
+      "oldEnchantGlint",
+      "leftHanded",
+      "noSmallArms",
+      "noShake",
+      "fixLiquidPlace",
+      "removeHitDelay"
+    ]
+  },
+  {
+    "name": "BedwarsUpgradeDisplay",
+    "modName": "Bedwars Upgrade Display",
+    "description": "Displays team upgrades for Bedwars",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "AutoWho",
+    "modName": "AutoWho",
+    "description": "Automatically type /who when joining Bedwars",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "Speedometer",
+    "modName": "Speedometer",
+    "description": "Display your speed",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "Shaders",
+    "modName": "Shaders",
+    "description": "BLC Shaders",
+    "enabled": false,
+    "fields": []
+  },
+  {
+    "name": "Survival",
+    "modName": "Survival",
+    "description": "Various quality-of-life enhancements for Survival mode.",
+    "enabled": false,
+    "fields": [
+      "lockItemsInInventory",
+      "antiToolBreaking",
+      "highlightShulkerProjectiles",
+      "antiAmethystMining",
+      "showShulkerBoxInventory",
+      "showEnderChestInventory",
+      "inventorySearchBar",
+      "removeElderGuardianEffect",
+      "antiStripLog",
+      "enableDeathCounter"
+    ]
+  }
+]

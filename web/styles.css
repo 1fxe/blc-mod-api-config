@@ -1,0 +1,211 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+:root {
+    --default-rounding: 5px;
+    --text-color: #fff;
+    --placeholder-color: #c4c4c4;
+    --background-color: #1f1f1f;
+    --secondary-color: #2c2c2c;
+    --tertiary-color: #505050;
+    --button: #2caddc;
+    --button-hover: #79ccf6;
+}
+
+::placeholder {
+    color: var(--placeholder-color);
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.nav {
+    background-color: #141414;
+    padding: 10px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo {
+    width: auto;
+    height: 50px;
+}
+
+.nav-title {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10px;
+}
+
+.stripe {
+    background: #D6D6D6 linear-gradient(to right, #2caddc 0, #2caddc calc(20% - 50px), #FFFFFF calc(20% - 50px), #FFFFFF calc(30% + 50px), #FFC646 calc(30% + 50px), #FFC646 100%);
+    border: none;
+    height: 3px;
+    margin: 0;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    justify-content: center;
+}
+
+.search-input {
+    height: 100%;
+    width: auto;
+    margin: auto;
+    font-size: x-large;
+    border: none;
+    border-radius: var(--default-rounding);
+    background-color: var(--tertiary-color);
+    color: var(--text-color);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.save-button {
+    height: 100%;
+    width: 200px;
+    font-size: x-large;
+    border-radius: var(--default-rounding);
+    background-color: var(--button);
+    color: var(--text-color);
+    padding: 1px 5px;
+    margin: auto 5px auto 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.save-button:hover {
+    background-color: var(--button-hover);
+}
+
+/* TODO Maybe Grid Layout would be better*/
+#output {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.mod-config {
+    width: 400px;
+    height: 110px;
+    background-color: var(--secondary-color);
+    border-radius: var(--default-rounding);
+    padding: 5px;
+    margin: 10px;
+    opacity: 1;
+    animation: fade 0.75s linear;
+    user-select: none;
+}
+
+.mod-config-header {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    cursor: pointer;
+}
+
+.mod-config-header-title {
+    font-size: x-large;
+    font-weight: 700;
+    margin: 10px auto 5px 10px;
+}
+
+.mod-config-header-button {
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.mod-config-header-button:hover {
+    color: #FFC646;
+    transform: translateY(-0.1em);
+}
+
+.mod-config-desc {
+    font-size: large;
+    font-weight: lighter;
+    margin: 0 10px 0 10px;
+}
+
+.lite-checkbox-outer {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin: 10px 0 5px 10px;
+}
+
+.lite-checkbox-inner {
+    width: 12px;
+    height: 12px;
+    border-radius: 10px;
+    border: 3px solid var(--background-color);
+}
+
+.lite-checkbox-outer:hover,
+.lite-checkbox-inner:hover {
+    cursor: pointer;
+}
+
+.force-enabled {
+    background-color: var(--button);
+    transition: 0.25s;
+}
+
+.force-disabled {
+    background-color: red;
+    transition: 0.25s;
+}
+
+.unchecked {
+    background-color: #505050;
+    transition: 0.25s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+#key {
+    font-weight: lighter;
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+#key > div {
+    margin: auto 0 auto 10px;
+}
