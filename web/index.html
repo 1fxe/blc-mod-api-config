@@ -13,18 +13,20 @@
 
 <body>
 
-<div class="nav">
-    <img class="nav-logo" src="assets/badlion-logo.png" width="1752" height="2000" alt="Badlion Logo"/>
-    <h1 class="nav-title">Config Generator</h1>
-</div>
-<hr class="stripe"/>
-<div class="search">
-    <label for="search">
-        <input class="search-input" id="search" type="text" placeholder="Search.." maxlength="20"/>
-    </label>
+<nav class="nav">
+    <div class="nav-right">
+        <img class="nav-logo" src="assets/badlion-logo.png" width="1752" height="2000" alt="Badlion Logo"/>
+        <h1 class="nav-title">Config Generator</h1>
+    </div>
+    <ul role="menubar">
+        <li><a role="menuitem" id="nav-home" class="nav-selected" href="#">Home</a></li>
+        <li><a role="menuitem" id="nav-cps" href="#">CPS Limiter</a></li>
+        <li><a role="menuitem" id="nav-waypoints" href="#">Waypoints</a></li>
+        <li><a role="menuitem" id="nav-timer" href="#">Timer</a></li>
+    </ul>
     <button id="save" class="save-button">Save</button>
-</div>
-<div id="key"></div>
+</nav>
+<hr class="stripe"/>
 <div id="output"></div>
 <a id="link" style="display: none"></a>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

@@ -9,6 +9,7 @@
     --tertiary-color: #505050;
     --button: #2caddc;
     --button-hover: #79ccf6;
+    --gold: #FFC646;
 }
 
 ::placeholder {
@@ -31,8 +32,12 @@ html, body {
     height: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}
+
+.nav-right {
+    display: flex;
 }
 
 .nav-logo {
@@ -46,8 +51,33 @@ html, body {
     padding-left: 10px;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: inline;
+    font-size: large;
+    color: var(--text-color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-selected {
+    text-decoration: underline;
+    text-decoration-color: var(--gold);
+    text-decoration-thickness: 4px;
+}
+
 .stripe {
-    background: #D6D6D6 linear-gradient(to right, #2caddc 0, #2caddc calc(20% - 50px), #FFFFFF calc(20% - 50px), #FFFFFF calc(30% + 50px), #FFC646 calc(30% + 50px), #FFC646 100%);
+    background: #D6D6D6 linear-gradient(to right, #2caddc 0, #2caddc calc(20% - 50px), #FFFFFF calc(20% - 50px), #FFFFFF calc(30% + 50px), var(--gold) calc(30% + 50px), var(--gold) 100%);
     border: none;
     height: 3px;
     margin: 0;
@@ -93,12 +123,10 @@ html, body {
     background-color: var(--button-hover);
 }
 
-/* TODO Maybe Grid Layout would be better*/
 #output {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
     margin: auto;
 }
 
@@ -142,7 +170,7 @@ html, body {
 }
 
 .mod-config-header-button:hover {
-    color: #FFC646;
+    color: var(--gold);
     transform: translateY(-0.1em);
 }
 
@@ -209,4 +237,11 @@ html, body {
 
 #key > div {
     margin: auto 0 auto 10px;
+}
+
+.mod-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
